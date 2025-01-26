@@ -15,7 +15,7 @@
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color: #155E95;
   --white: #ffffff;
 }
 
@@ -122,6 +122,12 @@ ol {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
+}
+
+.numbered-list {
+  padding-left: 20px;
+  list-style-type: decimal; /* Ensures numbers are displayed */
+  font-size: 18px; /* Adjusts font size for readability */
 }
 
 p {
@@ -752,7 +758,6 @@ p {
     font-size: 14px;
   }
 }
-
 
 /* ===== About CSS ===== */
 .ud-about {
@@ -2035,7 +2040,7 @@ p {
 .ud-blog-details-subtitle {
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 767px) {
@@ -2122,6 +2127,17 @@ p {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+}
+
+.gamat img {
+  margin-top: -15px;
+  margin-bottom:  15px;
+}
+
+.matlist {
+  margin-bottom: 25px;
+  /* max-width: 600px;
+  margin: 0 auto; */
 }
 
 .ud-blog-tags {
