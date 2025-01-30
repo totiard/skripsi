@@ -2129,9 +2129,25 @@ p {
   }
 }
 
-.gamat img {
+/* .gamat img {
+  display: block;
+  margin: 0 auto;
   margin-top: -15px;
   margin-bottom:  15px;
+} */
+
+.gamat img.left {
+  display: block;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  margin-left: 0;  /* Gambar rata kiri */
+}
+
+.gamat img.center {
+  display: block;
+  margin: 0 auto;
+  margin-top: -15px;
+  margin-bottom: 15px;
 }
 
 .matlist {
